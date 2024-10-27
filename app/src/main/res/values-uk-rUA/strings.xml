@@ -28,7 +28,7 @@
     <string name="auth_button_text">Verify</string>
     <string name="auth_button_paste">Paste</string>
     <!-- Main -->
-    <string name="main_search_placeholder">Search for worlds, users or avatars…</string>
+    <string name="main_search_placeholder">Search for worlds, users, or avatars…</string>
     <!-- Profile -->
     <string name="profile_label_current_location">Current Location</string>
     <string name="profile_label_biography">Bio</string>
@@ -80,7 +80,7 @@
     </string-array>
     <string name="world_author_label">By %1$s</string>
     <string name="world_instance_invite_dialog_title">Are you sure?</string>
-    <string name="world_instance_invite_dialog_description">You\'re about to send invite to yourself onto this instance, do you really want to do that?</string>
+    <string name="world_instance_invite_dialog_description">You\'re about to send invite to yourself to this instance, do you really want to do that?</string>
     <string name="world_instance_no_public_instances_message">No public instances</string>
     <string name="world_instance_failed_to_fetch_instance_message">Failed to fetch instance, try again.</string>
     <!-- Tabs -->
@@ -92,14 +92,14 @@
     <string name="tabs_label_settings">Settings</string>
     <!-- Notifications -->
     <string name="service_notification">VRCAA is now monitoring your friends on the background.</string>
-    <string name="notification_service_title_online">Friend has came online!</string>
-    <string name="notification_service_description_online">Your friend, %1$s has came online!</string>
+    <string name="notification_service_title_online">Friend has come online!</string>
+    <string name="notification_service_description_online">Your friend, %1$s has come online!</string>
     <string name="notification_service_title_offline">Friend has gone offline!</string>
     <string name="notification_service_description_offline">Your friend, %1$s has gone offline!</string>
     <string name="notification_service_title_location">Friend changed location!</string>
-    <string name="notification_service_description_location">Your friend, %1$s went to %2$s.</string>
+    <string name="notification_service_description_location">Your friend, %1$s, went to %2$s.</string>
     <string name="notification_service_title_friend_removed">Your friend has removed you.</string>
-    <string name="notification_service_description_friend_removed">Your friend, %1$s is no longer your friend :(</string>
+    <string name="notification_service_description_friend_removed">%1$s is no longer your friend :(</string>
     <string name="notification_service_title_friend_added">You got a new friend!</string>
     <string name="notification_service_description_friend_added">%1$s is now your friend!</string>
     <string name="notification_title_player">\'s Notifications</string>
@@ -111,9 +111,9 @@
     <string name="notification_service_title_status">Friend changed status!</string>
     <string name="notification_service_description_status">Your friend, %1$s has changed their status from %2$s to %3$s.</string>
     <!-- Avatars -->
-    <string name="avatar_dropdown_label_select">Change to Avatar</string>
+    <string name="avatar_dropdown_label_select">Change into Avatar</string>
     <string name="avatar_dropdown_label_remove_favorite">Remove from Favorites</string>
-    <string name="avatar_dropdown_toast_select_avatar">Avatar Selected!</string>
+    <string name="avatar_dropdown_toast_select_avatar">Changed into Avatar!</string>
     <string name="avatar_title_description">Description</string>
     <string name="avatar_title_created_at">Creation Date</string>
     <string name="avatar_title_updated_at">Last Updated</string>
@@ -133,9 +133,9 @@
     <string name="feed_added_label">Friend Added</string>
     <string name="feed_added_text">added you as friend.</string>
     <string name="feed_removed_label">Friend Removed</string>
-    <string name="feed_removed_text">has removed you as friend.</string>
+    <string name="feed_removed_text">has removed you as a friend.</string>
     <string name="feed_friend_request_label">Friend Request</string>
-    <string name="feed_friend_request_text">wants to add you as friend.</string>
+    <string name="feed_friend_request_text">wants to add you as a friend.</string>
     <!-- About -->
     <string name="about_page_title">About</string>
     <string name="about_page_open_source_licenses_title">Open Source Licenses</string>
@@ -146,7 +146,7 @@
     <string name="about_page_developer_mode">Enable Developer Mode</string>
     <!-- API -->
     <string name="api_session_has_expired_text">Your session has expired, please login again.</string>
-    <string name="api_avatar_select_failed">"Failed to select avatar."</string>
+    <string name="api_avatar_select_failed">"Failed to change into avatar."</string>
     <!-- Discord Rich Presence -->
     <string name="discord_login_title">Login to Discord</string>
     <string name="discord_login_title_verify">Verify 2FA</string>
@@ -164,16 +164,16 @@
     <string name="discord_login_label_logout">Logout</string>
     <string name="discord_login_description_logout">Revoke your access token</string>
     <!-- Crash -->
-    <string name="crash_title_text">The application encountered fatal error.</string>
+    <string name="crash_title_text">The application has encountered a fatal error!</string>
     <string name="crash_button_restart_text">Restart</string>
-    <string name="crash_button_copy_log_text">Copy Information</string>
+    <string name="crash_button_copy_log_text">Copy Crash</string>
     <string name="crash_button_report_text">Report Issue</string>
     <!-- Groups -->
     <string-array name="group_selection_options">
         <item>Info</item>
         <item>Instances</item>
     </string-array>
-    <string name="group_toast_not_found_message">Group was not found, are you sure it exists?</string>
+    <string name="group_toast_not_found_message">Could not find group! Does it exist yet?</string>
     <string name="group_page_label_description">Description</string>
     <string name="group_page_label_rules">Rules</string>
     <string name="group_page_dropdown_view_author">View Author\'s Profile</string>
@@ -184,19 +184,19 @@
     <string name="group_page_toast_invite_requested">Sent invite request.</string>
     <string name="group_page_toast_invite_requested_fail">Failed to request invite.</string>
     <string name="group_page_toast_invite_requested_cancel">Cancelled invite request.</string>
-    <string name="group_page_toast_invite_requested_cancel_fail">Failed to cancel request invite.</string>
+    <string name="group_page_toast_invite_requested_cancel_fail">Failed to cancel invite request.</string>
     <string name="group_page_toast_join_group">Joined the group.</string>
     <string name="group_page_toast_join_group_fail">Failed to join the group.</string>
     <string name="group_page_toast_leave_group">Left the group.</string>
     <string name="group_page_toast_leave_group_fail">Failed to leave the group.</string>
-    <string name="group_user_no_groups_message">User is not apart of any groups.</string>
+    <string name="group_user_no_groups_message">User is not a part of any groups.</string>
     <string name="group_user_failed_to_fetch_groups">Failed to fetch groups, try again.</string>
     <string name="group_user_viewing_groups_username">%1$s\'s Groups</string>
     <!-- Misc -->
     <string name="misc_no_internet_title">No Internet Connection</string>
-    <string name="misc_no_internet_description">Please make sure you\'re connected to the internet, this application cannot work without Internet connection.</string>
+    <string name="misc_no_internet_description">We can't reach VRChat right now. Are you connected to the internet?'</string>
     <string name="misc_no_internet_label">Restart</string>
-    <string name="misc_exit_toast_label">Press again to quit.</string>
+    <string name="misc_exit_toast_label">Press the back button again to quit.</string>
     <!-- User -->
     <string name="user_dropdown_view_groups">View Groups</string>
     <string name="user_dropdown_view_worlds">View Worlds</string>
@@ -214,8 +214,8 @@
     <string name="profile_edit_dialog_title_edit_profile">Edit Profile</string>
     <!-- Logout dialog -->
     <string name="logout_dialog_title">Are you sure?</string>
-    <string name="logout_dialog_description">By pressing \"Continue\" below you will log-out of VRCAA and you have to re-login to keep using the application.</string>
-    <string name="logout_dialog_continue">Continue</string>
+    <string name="logout_dialog_description">By pressing \"Continue\" below you will log-out of VRCAA. You will have to login again to continue use of the application.</string>
+    <string name="logout_dialog_continue">Logout</string>
     <string name="logout_dialog_cancel">Cancel</string>
     <!-- Widgets -->
     <string name="widget_name_friend_list">See current friend locations</string>
@@ -233,7 +233,7 @@
     <string name="favorite_dialog_button_add">Add</string>
     <string name="favorite_dialog_button_cancel">Cancel</string>
     <string name="favorite_dialog_title">"Add Favorite"</string>
-    <string name="favorite_page_title">Showing Favorites</string>
+    <string name="favorite_page_title">%1$s\'s Favorites</string>
     <!-- Activities -->
     <string-array name="activities_selection_options">
         <item>Feed</item>
@@ -243,7 +243,7 @@
     <!-- Worlds -->
     <string name="worlds_page_title">%1$s\'s Worlds</string>
     <!-- Avatars -->
-    <string name="avatars_page_title">Viewing avatars</string>
+    <string name="avatars_page_title">%1$s\'s Avatars</string>
     <!-- Debug -->
     <string name="developer_mode_toggle_toast">Restart the application to make the changes take effect.</string>
     <!-- Loading Texts -->
